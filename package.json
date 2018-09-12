@@ -1,0 +1,12 @@
+{
+  "name": "symfonyblog",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "build": "sass public/assets/style/sass/app.scss public/assets/style/app.css"
+  },
+  "author": "",
+  "license": "ISC"
+}

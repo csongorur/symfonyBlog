@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <section class="article-create">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <form method="POST" action="{{ path('article-store') }}">
+                        <div class="field">
+                            <div class="control">
+                                <input name="title" class="input" type="text" placeholder="Title" />
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="control">
+                                <textarea name="body" class="input" cols="30" rows="10" placeholder="body"></textarea>
+                            </div>
+                        </div>
+                        <input type="submit" class="button is-primary" value="Add" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+{% endblock %}

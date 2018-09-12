@@ -1,0 +1,9 @@
+index:
+    path: /
+    controller: App\Controller\ArticlesController::index
+article-create:
+    path: /articles/create
+    controller: App\Controller\ArticlesController::create
+article-store:
+    path: /articles/store
+    controller: App\Controller\ArticlesController::store
